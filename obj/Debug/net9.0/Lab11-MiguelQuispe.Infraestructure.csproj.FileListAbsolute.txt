@@ -1,0 +1,17 @@
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\bin\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.deps.json
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\bin\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.runtimeconfig.json
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\bin\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.dll
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\bin\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.pdb
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\bin\Debug\net9.0\Lab11-MiguelQuispe.Domain.dll
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\bin\Debug\net9.0\Lab11-MiguelQuispe.Domain.pdb
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\obj\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.csproj.AssemblyReference.cache
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\obj\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\obj\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.AssemblyInfoInputs.cache
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\obj\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.AssemblyInfo.cs
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\obj\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.csproj.CoreCompileInputs.cache
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\obj\Debug\net9.0\Lab11-Mi.32879D9B.Up2Date
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\obj\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.dll
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\obj\Debug\net9.0\refint\Lab11-MiguelQuispe.Infraestructure.dll
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\obj\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.pdb
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\obj\Debug\net9.0\Lab11-MiguelQuispe.Infraestructure.genruntimeconfig.cache
+D:\TECSUP-6SEMESTRE\Desarollo de aplicaciones empresariales avanzado\Semana11\Lab11-MiguelQuispe\Lab11-MiguelQuispe.Infraestructure\obj\Debug\net9.0\ref\Lab11-MiguelQuispe.Infraestructure.dll
