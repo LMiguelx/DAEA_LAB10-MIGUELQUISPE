@@ -11,12 +11,10 @@ namespace Lab11_MiguelQuispe.Controllers;
 public class TicketsController : ControllerBase
 {
     private readonly IMediator _mediator;
-
     public TicketsController(IMediator mediator)
     {
         _mediator = mediator;
     }
-
     [HttpGet]
     public async Task<ActionResult<List<TicketDto>>> GetAll()
     {
@@ -24,7 +22,6 @@ public class TicketsController : ControllerBase
         return Ok(tickets);
     }
 
-    // GET: api/tickets/{id}
     [HttpGet("{id}")]
     public async Task<ActionResult<TicketDto>> GetById(Guid id)
     {
@@ -33,7 +30,6 @@ public class TicketsController : ControllerBase
         return Ok(ticket);
     }
 
-    // POST: api/tickets
     [HttpPost]
     public async Task<ActionResult<Guid>> Create(AddTicketCommand command)
     {
@@ -41,7 +37,6 @@ public class TicketsController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = newId }, newId);
     }
 
-    // PUT: api/tickets/{id}
     [HttpPut("{id}")]
     public async Task<ActionResult> Update(Guid id, UpdateTicketCommand command)
     {
@@ -53,8 +48,6 @@ public class TicketsController : ControllerBase
 
         return NoContent();
     }
-
-    // DELETE: api/tickets/{id}
     [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(Guid id)
     {

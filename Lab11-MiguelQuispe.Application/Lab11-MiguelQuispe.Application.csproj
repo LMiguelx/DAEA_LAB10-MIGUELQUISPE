@@ -16,6 +16,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Lab11-MiguelQuispe.Domain\Lab11-MiguelQuispe.Domain.csproj" />
+      <ProjectReference Include="..\Lab11-MiguelQuispe.Infraestructure\Lab11-MiguelQuispe.Infraestructure.csproj" />
     </ItemGroup>
 
 </Project>

@@ -23,16 +23,13 @@ public class RolesController : ControllerBase
         var roles = await _mediator.Send(new GetRolesQuery());
         return Ok(roles);
     }
-        
-
     [HttpPost]
     public async Task<ActionResult<RoleDto>> Create([FromBody] AddRoleCommand command)
     {
         var createdRole = await _mediator.Send(command);
         return CreatedAtAction(nameof(Get), new { id = createdRole.RoleId }, createdRole);
     }
-        
-    // PUT: api/roles/{id}
+
     [HttpPut("{id}")]
     public async Task<ActionResult<RoleDto>> Update(Guid id, [FromBody] UpdateRoleCommand command)
     {
@@ -42,9 +39,7 @@ public class RolesController : ControllerBase
         var updatedRole = await _mediator.Send(command);
         return Ok(updatedRole);
     }
-        
 
-    // DELETE: api/roles/{id}
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(Guid id)
     {
