@@ -1,8 +1,8 @@
+using Hangfire;
 using Lab11_MiguelQuispe.Application.Configuration;
 using Lab11_MiguelQuispe.Application.Mapping;
+using Lab11_MiguelQuispe.Domain.Interfaces;
 using Lab11_MiguelQuispe.Infraestructure.configuration;
-
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddInfrastructure(builder.Configuration);
@@ -19,11 +19,15 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
-
 app.UseHttpsRedirection();
 app.UseRouting();
-
 app.UseAuthorization();
+app.UseHangfireDashboard("/hangfire");
+
+RecurringJob.AddOrUpdate<IDataCleanupService>(
+    "job-limpieza-datos",
+    service => service.CleanOldData(),
+    Cron.Daily);
 
 app.MapStaticAssets();
 
@@ -40,6 +44,4 @@ if (app.Environment.IsDevelopment())
         c.RoutePrefix = string.Empty; 
     });
 }
-
-
 app.Run();
