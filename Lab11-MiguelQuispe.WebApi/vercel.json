@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "Lab11-MiguelQuispe.WebApi.dll"
+      "dest": "bin/Release/net9.0/publish/Lab11-MiguelQuispe.WebApi.dll"
     }
   ]
 }
