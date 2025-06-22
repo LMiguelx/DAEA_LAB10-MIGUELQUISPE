@@ -5,11 +5,5 @@
       "src": "Lab11-MiguelQuispe.WebApi.csproj",
       "use": "@vercel/dotnet"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "bin/Release/net9.0/publish/Lab11-MiguelQuispe.WebApi.dll"
-    }
   ]
 }

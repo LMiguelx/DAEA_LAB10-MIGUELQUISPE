@@ -20,6 +20,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 app.UseHttpsRedirection();
+app.MapGet("/", () => "API funcionando desde Vercel");
 app.UseRouting();
 app.UseAuthorization();
 app.UseHangfireDashboard("/hangfire");
